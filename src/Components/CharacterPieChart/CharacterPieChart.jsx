@@ -1,3 +1,4 @@
+
 import { Legend, Pie, PieChart, Tooltip } from "recharts";
 
 const data = [
@@ -7,7 +8,7 @@ const data = [
   { name: "Group D", value: 200 },
 ];
 
-export const CharacterPieChart = (data) => (
+export const CharacterPieChart = () => (
   <PieChart width={800} height={400}>
     <Pie
       dataKey="value"

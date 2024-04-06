@@ -3,6 +3,8 @@ import { ImageComponent } from "../Components/ImageComponent/ImageComponent.jsx"
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+import "./BioPageStyle.css";
+
 export const CharacterDetailsPage = () => {
   const { name } = useParams();
   const [characterData, setCharacterData] = useState(null);
@@ -28,8 +30,10 @@ export const CharacterDetailsPage = () => {
   }, [name]);
 
   return (
-    <div>
-      <ImageComponent data={characterData} />
+    <div className="bio-page">
+      <div className="image-container">
+        <ImageComponent data={characterData} />
+      </div>
       {characterData && (
         <div>
           <h1>{characterData.name}</h1>

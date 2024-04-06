@@ -1,0 +1,10 @@
+.bio-page {
+    display: grid;
+    grid-template-columns: [col1-start] 1fr [col2-start] 1fr [col2-end];
+    color: black;
+    padding: 25px;
+}
+
+.bio-page a {
+    color: #e01a38;
+}
