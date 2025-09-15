@@ -42,7 +42,6 @@ GIF created with LiceCap
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
 Step 1: Clone the Repository: 
 
 ``git clone https://github.com/ebordenave/marvel-dashboard2.git``
@@ -58,6 +57,8 @@ VITE_MARVEL_PRIVATE_KEY=your_private_key_here``
 Step 4: Run
 ``npm run dev``
 
+This project is currently being reworked, implementing some different ideas and rethinking the approach of the project overall. To view the changes, simply navigate to:
+https://github.com/ebordenave/marvel-project
 ## License
 
     Copyright [yyyy] [name of copyright owner]
