@@ -43,12 +43,10 @@ GIF created with LiceCap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-Understanding how to interpret the data and return numerical values of it in a
-chart was very difficult
-Many of the hooks in react router were also unfamiliar to me. I'm still not sure
-how useParams and useLocation are supposed to function
-Lifting State up proved incredibly difficult
+Clone the Repository: 
+
+``git clone https://github.com/ebordenave/codepath-marvel-dashboard2.git
+cd codepath-marvel-dashboard2``
 
 ## License
 
