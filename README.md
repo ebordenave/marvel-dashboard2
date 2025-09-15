@@ -43,10 +43,20 @@ GIF created with LiceCap
 
 ## Notes
 
-Clone the Repository: 
+Step 1: Clone the Repository: 
 
-``git clone https://github.com/ebordenave/codepath-marvel-dashboard2.git
-cd codepath-marvel-dashboard2``
+``git clone https://github.com/ebordenave/codepath-marvel-dashboard2.git``
+``cd codepath-marvel-dashboard2``
+
+Step 2: Install Node >= 18
+``npm install``
+
+Step 3: Setup the environment variables
+``VITE_MARVEL_PUBLIC_KEY=your_public_key_here
+VITE_MARVEL_PRIVATE_KEY=your_private_key_here``
+
+Step 4: Run
+``npm run dev``
 
 ## License
 
